@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.1">
+  <Content Processor="Interface">
+    <Control type="ScriptComboBox" id="FILTERSELECTOR" value="9"/>
+    <Control type="ScriptButton" id="G1A ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="G1A WAVETYPE" value="4"/>
+    <Control type="ScriptSlider" id="G1A PAN" value="0"/>
+    <Control type="ScriptSlider" id="G1A OCTAVE" value="1"/>
+    <Control type="ScriptSlider" id="G1A DETUNE" value="0"/>
+    <Control type="ScriptSlider" id="G1A PULSEWIDTH" value="0.68"/>
+    <Control type="ScriptSlider" id="G1 MIX" value="0.5"/>
+    <Control type="ScriptButton" id="G1B ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="G1B WAVETYPE" value="4"/>
+    <Control type="ScriptSlider" id="G1B PAN" value="10"/>
+    <Control type="ScriptSlider" id="G1B OCTAVE" value="2"/>
+    <Control type="ScriptSlider" id="G1B DETUNE" value="1.75"/>
+    <Control type="ScriptSlider" id="G1B PULSEWIDTH" value="0.67"/>
+    <Control type="ScriptButton" id="G2A ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="G2A WAVETYPE" value="4"/>
+    <Control type="ScriptSlider" id="G2A PAN" value="0"/>
+    <Control type="ScriptSlider" id="G2A OCTAVE" value="1"/>
+    <Control type="ScriptSlider" id="G2A DETUNE" value="-7.06"/>
+    <Control type="ScriptSlider" id="G2A PULSEWIDTH" value="0.18"/>
+    <Control type="ScriptSlider" id="G2 MIX" value="0.63"/>
+    <Control type="ScriptButton" id="G2B ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="G2B WAVETYPE" value="4"/>
+    <Control type="ScriptSlider" id="G2B PAN" value="0"/>
+    <Control type="ScriptSlider" id="G2B OCTAVE" value="3"/>
+    <Control type="ScriptSlider" id="G2B DETUNE" value="7.07"/>
+    <Control type="ScriptSlider" id="G2B PULSEWIDTH" value="0.5"/>
+    <Control type="ScriptSlider" id="G1 ATTACK" value="12"/>
+    <Control type="ScriptSlider" id="G1 HOLD" value="0"/>
+    <Control type="ScriptSlider" id="G1 DECAY" value="1997"/>
+    <Control type="ScriptSlider" id="G1 SUSTAIN" value="-100"/>
+    <Control type="ScriptSlider" id="G1 RELEASE" value="2578"/>
+    <Control type="ScriptSlider" id="G1 ATTACK CURVE" value="0"/>
+    <Control type="ScriptSlider" id="G1 DECAY CURVE" value="0"/>
+    <Control type="ScriptSlider" id="G1 VELOCITY" value="0.63"/>
+    <Control type="ScriptButton" id="G1 ENV MONO ON" value="0"/>
+    <Control type="ScriptButton" id="G1 ENV RETRIGGER ON" value="0"/>
+    <Control type="ScriptSlider" id="G1 VELOCITY MIX" value="0"/>
+    <Control type="ScriptButton" id="G1 VELOCITY MIX ON" value="0"/>
+    <Control type="ScriptButton" id="G1 VELOCITY MIX EXPONENTIAL ON" value="0"/>
+    <Control type="ScriptButton" id="G1 VELOCITY MIX INVERT ON" value="0"/>
+    <Control type="ScriptButton" id="G1 P-ENV ON" value="0"/>
+    <Control type="ScriptSlider" id="G1 P-ENV ATTACK" value="0"/>
+    <Control type="ScriptSlider" id="G1 P-ENV HOLD" value="0"/>
+    <Control type="ScriptSlider" id="G1 P-ENV DECAY" value="0"/>
+    <Control type="ScriptSlider" id="G1 P-ENV RELEASE" value="5"/>
+    <Control type="ScriptSlider" id="G1 P-ENV ATTACK CURVE" value="0"/>
+    <Control type="ScriptSlider" id="G1 P-ENV DECAY CURVE" value="0"/>
+    <Control type="ScriptSlider" id="G1 P-ENV INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="G1 P-ENV MONO ON" value="0"/>
+    <Control type="ScriptButton" id="G1 P-ENV RETRIGGER ON" value="0"/>
+    <Control type="ScriptSlider" id="G2 ATTACK" value="49"/>
+    <Control type="ScriptSlider" id="G2 HOLD" value="0"/>
+    <Control type="ScriptSlider" id="G2 DECAY" value="432"/>
+    <Control type="ScriptSlider" id="G2 SUSTAIN" value="-100"/>
+    <Control type="ScriptSlider" id="G2 RELEASE" value="1512"/>
+    <Control type="ScriptSlider" id="G2 ATTACK CURVE" value="0"/>
+    <Control type="ScriptSlider" id="G2 DECAY CURVE" value="0"/>
+    <Control type="ScriptSlider" id="G2 VELOCITY" value="0.89"/>
+    <Control type="ScriptButton" id="G2 ENV MONO ON" value="0"/>
+    <Control type="ScriptButton" id="G2 ENV RETRIGGER ON" value="0"/>
+    <Control type="ScriptSlider" id="G2 VELOCITY MIX" value="0"/>
+    <Control type="ScriptButton" id="G2 VELOCITY MIX ON" value="0"/>
+    <Control type="ScriptButton" id="G2 VELOCITY MIX EXPONENTIAL ON" value="0"/>
+    <Control type="ScriptButton" id="G2 VELOCITY MIX INVERT ON" value="0"/>
+    <Control type="ScriptButton" id="G2 P-ENV ON" value="1"/>
+    <Control type="ScriptSlider" id="G2 P-ENV ATTACK" value="0"/>
+    <Control type="ScriptSlider" id="G2 P-ENV HOLD" value="0"/>
+    <Control type="ScriptSlider" id="G2 P-ENV DECAY" value="233"/>
+    <Control type="ScriptSlider" id="G2 P-ENV RELEASE" value="5"/>
+    <Control type="ScriptSlider" id="G2 P-ENV ATTACK CURVE" value="0"/>
+    <Control type="ScriptSlider" id="G2 P-ENV DECAY CURVE" value="0"/>
+    <Control type="ScriptSlider" id="G2 P-ENV INTENSITY" value="0.14"/>
+    <Control type="ScriptButton" id="G2 P-ENV MONO ON" value="0"/>
+    <Control type="ScriptButton" id="G2 P-ENV RETRIGGER ON" value="0"/>
+    <Control type="ScriptSlider" id="G1 VOLUME" value="0.75"/>
+    <Control type="ScriptSlider" id="G2 VOLUME" value="0.5"/>
+    <Control type="ScriptSlider" id="GAIN ENVELOPE ATTACK" value="0"/>
+    <Control type="ScriptSlider" id="GAIN ENVELOPE HOLD" value="0"/>
+    <Control type="ScriptSlider" id="GAIN ENVELOPE DECAY" value="40000"/>
+    <Control type="ScriptSlider" id="GAIN ENVELOPE SUSTAIN" value="-100"/>
+    <Control type="ScriptSlider" id="GAIN ENVELOPE RELEASE" value="3510"/>
+    <Control type="ScriptSlider" id="GAIN ENVELOPE ATTACK CURVE" value="0"/>
+    <Control type="ScriptSlider" id="GAIN ENVELOPE ATTACK LEVEL" value="0"/>
+    <Control type="ScriptSlider" id="GAIN VELOCITY ATTACK LEVEL" value="0"/>
+    <Control type="ScriptButton" id="ATTACK LEVEL EXPONENTIAL ON" value="0"/>
+    <Control type="ScriptButton" id="ATTACK LEVEL INVERT ON" value="0"/>
+    <Control type="ScriptButton" id="ATTACK LEVEL ON" value="0"/>
+    <Control type="ScriptSlider" id="GAIN VELOCITY ATTACK TIME" value="0"/>
+    <Control type="ScriptButton" id="ATTACK TIME EXPONENTIAL ON" value="0"/>
+    <Control type="ScriptButton" id="ATTACK TIME INVERT ON" value="0"/>
+    <Control type="ScriptButton" id="ATTACK TIME ON" value="0"/>
+    <Control type="ScriptSlider" id="GAIN DECAY CURVE" value="0"/>
+    <Control type="ScriptTable" id="KEYBOARD VOLUME TABLE reflection" value="0"
+             data=""/>
+    <Control type="ScriptTable" id="KEYBOARD VOLUME TABLE" value="0" data=""/>
+    <Control type="ScriptButton" id="KEYBOARD VOLUME SCALE ON" value="0"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPE INTENSITY" value="1.01"/>
+    <Control type="ScriptSlider" id="FILTER VELOCITY INTENSITY" value="0.7"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPE ATTACK" value="2"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPE HOLD" value="0"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPE DECAY" value="2702"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPE SUSTAIN" value="-100"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPE RELEASE" value="4789"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPE ATTACK CURVE" value="0"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPE ATTACK LEVEL" value="0"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPE VELOCITY ATTACK LEVEL"
+             value="0"/>
+    <Control type="ScriptButton" id="FILTER ENVELOPE ATTACK LEVEL EXPONENTIAL ON"
+             value="0"/>
+    <Control type="ScriptButton" id="FILTER ENVELOPE ATTACK LEVEL INVERT ON"
+             value="0"/>
+    <Control type="ScriptButton" id="FILTER ENVELOPE ATTACK LEVEL ON" value="0"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPE VELOCITY ATTACK TIME"
+             value="1"/>
+    <Control type="ScriptButton" id="FILTER ENVELOPE ATTACK TIME EXPONENTIAL ON"
+             value="0"/>
+    <Control type="ScriptButton" id="FILTER ENVELOPE ATTACK TIME INVERT ON"
+             value="0"/>
+    <Control type="ScriptButton" id="FILTER ENVELOPE ATTACK TIME ON" value="0"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPE DECAY CURVE" value="0"/>
+    <Control type="ScriptSlider" id="FILTER FREQUENCY" value="3996"/>
+    <Control type="ScriptSlider" id="FILTER RESONANCE" value="1"/>
+    <Control type="ScriptSlider" id="FILTER BIPOLAR" value="0"/>
+    <Control type="ScriptSlider" id="FILTER GAIN" value="0"/>
+    <Control type="ScriptButton" id="FILTER ENVELOPE MONO ON" value="0"/>
+    <Control type="ScriptButton" id="FILTER ENV RETRIGGER ON" value="0"/>
+    <Control type="ScriptButton" id="FILTER ON" value="1"/>
+    <Control type="ScriptButton" id="FILTER ENVELOPE ON" value="1"/>
+    <Control type="ScriptButton" id="FILTER ENVELOPE ATTACK TIME EXPONENTIAL ON1"
+             value="1"/>
+    <Control type="ScriptButton" id="FILTER ENVELOPE ATTACK TIME INVERT ON1"
+             value="0"/>
+    <Control type="ScriptSlider" id="UNISONO" value="1"/>
+    <Control type="ScriptSlider" id="DETUNE" value="0"/>
+    <Control type="ScriptSlider" id="SPREAD" value="0"/>
+    <Control type="ScriptSlider" id="TRANSPOSE" value="-12"/>
+    <Control type="ScriptSlider" id="PITCHWHEEL" value="2"/>
+    <Control type="ScriptButton" id="FM ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="FM CARRIER SELECTOR" value="-1"/>
+    <Control type="ScriptSlider" id="FM MODULATOR SELECTOR" value="0"/>
+    <Control type="ScriptSlider" id="SHAPER MIX" value="0"/>
+    <Control type="ScriptComboBox" id="SHAPER MODE" value="4"/>
+    <Control type="ScriptButton" id="SHAPER AUTOGAIN ON" value="0"/>
+    <Control type="ScriptButton" id="SHAPER LIMIT INPUT ON" value="1"/>
+    <Control type="ScriptButton" id="SHAPER ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="SHAPER GAIN" value="0"/>
+    <Control type="ScriptSlider" id="SHAPER REDUCE" value="0"/>
+    <Control type="ScriptSlider" id="SHAPER HIGHPASS" value="20"/>
+    <Control type="ScriptSlider" id="SHAPER LOWPASS" value="20000"/>
+    <Control type="ScriptSlider" id="SHAPER BIAS LEFT" value="0"/>
+    <Control type="ScriptSlider" id="SHAPER BIAS RIGHT" value="0"/>
+    <Control type="ScriptComboBox" id="FILTER2SELECTOR" value="1"/>
+    <Control type="ScriptButton" id="FILTER 2 ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="FILTER 2 FREQUENCY" value="20"/>
+    <Control type="ScriptSlider" id="FILTER 2 RESONANCE" value="0.3"/>
+    <Control type="ScriptSlider" id="FILTER 2 BIPOLAR" value="0"/>
+    <Control type="ScriptSlider" id="FILTER 2 GAIN" value="0"/>
+    <Control type="ScriptButton" id="COMPRESSION ON" value="1"/>
+    <Control type="ScriptSlider" id="COMPRESSION THRESHOLD" value="-23.7"/>
+    <Control type="ScriptSlider" id="COMPRESSION RATIO" value="1.4"/>
+    <Control type="ScriptSlider" id="COMPRESSION ATTACK" value="0.82"/>
+    <Control type="ScriptSlider" id="COMPRESSION RELEASE" value="0.15"/>
+    <Control type="ScriptButton" id="SATURATION ON" value="0"/>
+    <Control type="ScriptSlider" id="SATURATION" value="0"/>
+    <Control type="ScriptSlider" id="SATURATION MIX" value="0"/>
+    <Control type="ScriptSlider" id="SATURATION PREGAIN" value="0"/>
+    <Control type="ScriptSlider" id="SATURATION POSTGAIN" value="0"/>
+    <Control type="ScriptButton" id="REVERB ON" value="1"/>
+    <Control type="ScriptSlider" id="REVERB MIX" value="0.15"/>
+    <Control type="ScriptSlider" id="REVERB ROOM SIZE" value="0.5"/>
+    <Control type="ScriptSlider" id="REVERB WIDTH" value="1"/>
+    <Control type="ScriptSlider" id="REVERB DAMPENING" value="0.5"/>
+    <Control type="ScriptButton" id="DELAY ON" value="1"/>
+    <Control type="ScriptSlider" id="DELAY MIX" value="0.08"/>
+    <Control type="ScriptSlider" id="DELAY LEFT TIME" value="8"/>
+    <Control type="ScriptSlider" id="DELAY RIGHT TIME" value="11"/>
+    <Control type="ScriptSlider" id="DELAY FEEDBACK LEFT" value="0.36"/>
+    <Control type="ScriptSlider" id="DELAY FEEDBACK RIGHT" value="0.65"/>
+    <Control type="ScriptButton" id="PHASER ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="PHASER FREQUENCY 1" value="1500"/>
+    <Control type="ScriptSlider" id="PHASER FREQUENCY 2" value="1500"/>
+    <Control type="ScriptSlider" id="PHASER FEEDBACK" value="0"/>
+    <Control type="ScriptSlider" id="PHASER MIX" value="0"/>
+    <Control type="ScriptSlider" id="MASTER VOLUME" value="-15"/>
+    <Control type="ScriptSlider" id="MASTER IMAGE" value="100"/>
+    <Control type="ScriptSlider" id="PANORAMA" value="0"/>
+    <Control type="ScriptPanel" id="coloring5" value="0"/>
+    <Control type="ScriptComboBox" id="LFO1WaveForm" value="1"/>
+    <Control type="ScriptButton" id="LFO1 LOOP" value="0"/>
+    <Control type="ScriptButton" id="LFO1 LEGATO" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 INTENSITY" value="1"/>
+    <Control type="ScriptSlider" id="LFO1 FREQUENCY" value="1"/>
+    <Control type="ScriptSlider" id="LFO1 FADE IN" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 SMOOTH" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO G1 MIX" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G1 MIX ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G1 MIX INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO G1 GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G1 GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G1 GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO G1 PITCH" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G1 PITCH ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G1 PITCH INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO G2 MIX" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G2 MIX ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G2 MIX INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO G2 GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G2 GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G1 GAIN INVERT2" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO G2 PITCH" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G2 PITCH ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G2 PITCH INVERT2" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO FILTER FREQUENCY" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER FREQUENCY ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER FREQUENCY INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO FILTER RESONANCE" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER RESONANCE ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER RESONANCE INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO FILTER BIPOLAR" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER BIPOLAR ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER BIPOLAR INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO FILTER GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER FREQUENCY GAIN INVERT"
+             value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO MASTER GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO MASTER GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO MASTER GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO MASTER PAN" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO MASTER PAN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO MASTER PAN INVERT" value="0"/>
+    <Control type="ScriptPanel" id="coloring6" value="0"/>
+    <Control type="ScriptComboBox" id="LFO2WaveForm" value="1"/>
+    <Control type="ScriptButton" id="LFO2 LOOP" value="0"/>
+    <Control type="ScriptButton" id="LFO2 LEGATO" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 INTENSITY" value="1"/>
+    <Control type="ScriptSlider" id="LFO2 FREQUENCY" value="1"/>
+    <Control type="ScriptSlider" id="LFO2 FADE IN" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 SMOOTH" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO G1 MIX" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO G1 MIX ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO G1 MIX INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO G1 GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO G1 GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO G1 GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO G1 PITCH" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO G1 PITCH ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO G1 PITCH INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO G2 MIX" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO G2 MIX ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO G2 MIX INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO G2 GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO G2 GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO G2 GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO G2 PITCH" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO G2 PITCH ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO G2 PITCH INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO FILTER FREQUENCY" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER FREQUENCY ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO G1 FILTER FREQUENCY INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO FILTER RESONANCE" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER RESONANCE ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER RESONANCE INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO FILTER BIPOLAR" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER BIPOLAR ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER BIPOLAR INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO FILTER GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO MASTER GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO MASTER GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO MASTER GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO MASTER PAN" value="0.02"/>
+    <Control type="ScriptButton" id="LFO2 TO MASTER PAN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO MASTER PAN INVERT" value="0"/>
+    <Control type="ScriptPanel" id="coloring7" value="0"/>
+    <Control type="ScriptComboBox" id="LFO3WaveForm" value="4"/>
+    <Control type="ScriptButton" id="LFO3 LOOP" value="0"/>
+    <Control type="ScriptButton" id="LFO3 Legato" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 INTENSITY" value="1"/>
+    <Control type="ScriptSlider" id="LFO3 FREQUENCY" value="11"/>
+    <Control type="ScriptSlider" id="LFO3 FADE IN" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 SMOOTH" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO G1 MIX" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO G1 MIX ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO G1 MIX INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO G1 GAIN" value="0.03"/>
+    <Control type="ScriptButton" id="LFO3 TO G1 GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO G1 GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO G1 PITCH" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO G1 PITCH ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO G1 PITCH INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO G2 MIX" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO G2 MIX ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO G2 MIX INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO G2 GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO G2 GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO G1 GAIN INVERT2" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO G2 PITCH" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO G2 PITCH ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO G2 GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO FILTER FREQUENCY" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER FREQUENCY ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER FREQUENCY INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO FILTER RESONANCE" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER RESONANCE ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER RESONANCE INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO FILTER BIPOLAR" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER BIPOLAR ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER BIPOLAR INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO FILTER GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER FREQUENCY GAIN INVERT"
+             value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO MASTER GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO MASTER GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO MASTER GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO MASTER PAN" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO MASTER PAN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO MASTER PAN INVERT" value="0"/>
+    <Control type="ScriptPanel" id="coloring8" value="0"/>
+    <Control type="ScriptComboBox" id="LFO4WaveForm" value="16"/>
+    <Control type="ScriptButton" id="LFO4 LOOP" value="0"/>
+    <Control type="ScriptButton" id="LFO4 Legato" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 INTENSITY" value="1"/>
+    <Control type="ScriptSlider" id="LFO4 FREQUENCY" value="11"/>
+    <Control type="ScriptSlider" id="LFO4 FADE IN" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 SMOOTH" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO G1 MIX" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO G1 MIX ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO G1 MIX INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO G1 GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO G1 GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO G1 GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO G1 PITCH" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO G1 PITCH ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO G1 PITCH INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO G2 MIX" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO G2 MIX ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO G2 MIX INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO G2 GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO G2 GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO G2 GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO G2 PITCH" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO G2 PITCH ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO G2 PITCH INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO FILTER FREQUENCY" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER FREQUENCY ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER FREQUENCY INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO FILTER RESONANCE" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER RESONANCE ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER RESONANCE INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO FILTER BIPOLAR" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER BIPOLAR ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER BIPOLAR INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO FILTER GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO MASTER GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO MASTER GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO MASTER GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO MASTER PAN" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO MASTER PAN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO MASTER PAN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO DETUNE" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO DETUNE ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO DETUNE INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO SPREAD" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO SPREAD ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO SPREAD INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO PHASER" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO PHASER ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO PHASER INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO SATURATION" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO SATURATION ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO SATURATION INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO FILTER2 FREQUENCY" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER2 FREQUENCY ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER2 FREQUENCY INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO FILTER2 RESONANCE" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER2 RESONANCE ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER2 RESONANCE INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO FILTER2 BIPOLAR" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER2 BIPOLAR ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER2 BIPOLAR INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 TO FILTER2 GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER2 GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO1 TO FILTER GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO DETUNE" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO DETUNE ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO DETUNE INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO SPREAD" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO SPREAD ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO SPREAD INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO PHASER" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO PHASER ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO PHASER INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO SATURATION" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO SATURATION ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO SATURATION INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO FILTER2 FREQUENCY" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER2 FREQUENCY ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER2 FREQUENCY INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO FILTER2 RESONANCE" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER2 RESONANCE ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER2 RESONANCE INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO FILTER2 BIPOLAR" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER2 BIPOLAR ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER2 BIPOLAR INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 TO FILTER2 GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER2 GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO2 TO FILTER2 GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO DETUNE" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO DETUNE ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO DETUNE INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO SPREAD" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO SPREAD ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO SPREAD INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO PHASER" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO PHASER ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO PHASER INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO SATURATION" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO SATURATION ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO SATURATION INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO FILTER2 FREQUENCY" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER2 FREQUENCY ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER2 FREQUENCY INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO FILTER2 RESONANCE" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER2 RESONANCE ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER2 RESONANCE INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO FILTER2 BIPOLAR" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER2 BIPOLAR ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER2 BIPOLAR INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 TO FILTER2 GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER2 GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO3 TO FILTER GAIN INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO DETUNE" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO DETUNE ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO DETUNE INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO SPREAD" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO SPREAD ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO SPREAD INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO PHASER" value="0.09"/>
+    <Control type="ScriptButton" id="LFO4 TO PHASER ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO PHASER INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO SATURATION" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO SATURATION ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO SATURATION INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO FILTER2 FREQUENCY" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER2 FREQUENCY ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER2 FREQUENCY INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO FILTER2 RESONANCE" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER2 RESONANCE ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER2 RESONANCE INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO FILTER2 BIPOLAR" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER2 BIPOLAR ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER2 BIPOLAR INVERT" value="0"/>
+    <Control type="ScriptSlider" id="LFO4 TO FILTER2 GAIN" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTER2 GAIN ON" value="0"/>
+    <Control type="ScriptButton" id="LFO4 TO FILTE2R GAIN INVERT" value="0"/>
+    <Control type="ScriptSliderPack" id="LFO GRID BCKG" value="0" data="64......................................................................................."/>
+    <Control type="ScriptTable" id="LFO1EditTable reflection" value="0" data=""/>
+    <Control type="ScriptTable" id="LFO1EditTable" value="0" data=""/>
+    <Control type="ScriptSliderPack" id="LFO2 GRID BCKG" value="0" data="64......................................................................................."/>
+    <Control type="ScriptTable" id="LFO2EditTable reflection" value="0" data=""/>
+    <Control type="ScriptTable" id="LFO2EditTable" value="0" data=""/>
+    <Control type="ScriptSliderPack" id="LFO3 GRID BCKG" value="0" data="64......................................................................................."/>
+    <Control type="ScriptTable" id="LFO3EditTable reflection" value="0" data=""/>
+    <Control type="ScriptTable" id="LFO3EditTable" value="0" data=""/>
+    <Control type="ScriptSliderPack" id="LFO4 SLIDERS3" value="15" data="64....................f+....9C...3O...................f+....9C...3O..............3O...f+."/>
+    <Control type="ScriptSliderPack" id="ARP NOTES" value="9" data="64......................................................................................."/>
+    <Control type="ScriptSliderPack" id="ARP VELOCITIES" value="15" data="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+."/>
+    <Control type="ScriptSliderPack" id="ARP LENGTHS" value="6" data="64......................................................................................."/>
+    <Control type="ScriptButton" id="ARP ON" value="0"/>
+    <Control type="ScriptButton" id="ARP RESET" value="0"/>
+    <Control type="ScriptButton" id="SORT KEYS" value="0"/>
+    <Control type="ScriptSlider" id="ARP STEPS" value="16"/>
+    <Control type="ScriptSlider" id="ARP SPEED" value="11"/>
+    <Control type="ScriptSlider" id="ARP STEP SKIP" value="1"/>
+    <Control type="ScriptSlider" id="ARP OCTAVE RANGE" value="0"/>
+    <Control type="ScriptSlider" id="ARP STEP RESET" value="0"/>
+    <Control type="ScriptSlider" id="ARP SHUFFLE" value="0"/>
+    <Control type="ScriptComboBox" id="PLAY THRU" value="1"/>
+    <Control type="ScriptComboBox" id="ARP DIRECTION" value="6"/>
+    <Control type="ScriptButton" id="ARP ON1" value="0"/>
+    <Control type="ScriptButton" id="ARP ON2" value="0"/>
+    <Control type="ScriptSlider" id="PHKnob" value="0"/>
+    <Control type="ScriptButton" id="MONO ENABLE" value="0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>
